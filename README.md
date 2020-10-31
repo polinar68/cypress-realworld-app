@@ -117,12 +117,12 @@ yarn cypress:open
 | start:empty    | Starts backend, frontend and Cypress with empty database seed       |
 | tsnode         | Customized ts-node command to get around react-scripts restrictions |
 | list:dev:users | Provides id and username for users in the dev database              |
-
+yup
 For a complete list of scripts see [package.json](./package.json)
 
 ## Code Coverage Report
 
-The Cypress Real-World App uses the [@cypress/code-coverage](https://github.com/cypress-io/code-coverage) plugin to generate code coverage reports for the app frontend and backend.
+The Cypress Real-World App uses the [polinar68@cypress/code-coverage](https://github.com/cypress-io/code-coverage) plugin to generate code coverage reports for the app frontend and backend.
 
 To generate a code coverage report:
 
